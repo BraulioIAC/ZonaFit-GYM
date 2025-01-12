@@ -1,5 +1,5 @@
 # ZonaFit-GYM
-Repositorio de la aplicación ZonaFit en Java. Esta aplicación fue desarrollada dentro del curso de Udemy [Universidad Java][curso_udemy], el cual recomiendo ampliamente si deseas aprender a programar en este lenguaje de programación. Mi contribución fue la de añadir una API para poder darle un alcance de aplicación web.
+Repositorio de la aplicación ZonaFit en Java. Esta aplicación fue desarrollada dentro del curso de Udemy [Universidad Java][curso_udemy], el cual recomiendo ampliamente si deseas aprender a programar en este lenguaje de programación.
 
 ## Herramientas empleadas en el proyecto
 * Java 17
@@ -10,10 +10,11 @@ Repositorio de la aplicación ZonaFit en Java. Esta aplicación fue desarrollada
 * Postman
 
 ## Clonar el repositorio
-Si deseas contribuir con la aplicación, puedes hacer un _fork_ del repositorio, y luego clonar el repositorio en tu PC con el SSH.
+Si deseas contribuir con la aplicación, puedes clonar el repositorio en tu PC con el SSH.
 ~~~
 git clone git@github.com:BraulioIAC/ZonaFit-GYM-backend.git
 ~~~
+También puede realizar una copia del repositorio en tu cuenta de GitHub con la acción _fork_, y escalar el proyecto por tu cuenta.
 
 ## Notas
 ### logback
@@ -30,7 +31,7 @@ El proyecto incluye la **dependencia** de **Lombok**, por lo que puedes incluir 
 * @ToString // crea de forma automática el método toString
 * @EqualsAndHashCode
 
-Y dejar únicamente los miembros de la clase `src/main/java/model/Cliente`.
+Y dejar únicamente los miembros de la clase `src/main/java/model/Cliente`. Yo no lo realicé para poder practicar la creación de los métodos necesarios para la clase.
 
 ### Seleccionar la aplicaión de presentación
 Deberás comentar la anotación @SpringBootApplication de las clases que ejecutan una capa de presentación, exceptuando la que es de tu interés. Las que se encuentran disponibles para esta aplicación son:
