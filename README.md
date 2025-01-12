@@ -19,7 +19,7 @@ git clone git@github.com:BraulioIAC/ZonaFit-GYM-backend.git
 ### logback
 El archivo **src/main/resources/logback-spring.xml** sirve para poder realizar _logs_ en la aplicación con la clase _slf4j_. La aplicación de escritorio no tiene el *salto de línea* por defecto, pero si deseas ocupar la aplciación con Swing, o quieres colocarlo como parte de otra capa de presentación, deberás añadir el salto de línea de la siguiente forma:
 ~~~
-`<pattern>%msg%n</pattern>`
+<pattern>%msg%n</pattern>
 ~~~
 
 ### Lombok
