@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    background-color: #1C1D1F !important; /* Color de fondo en toda la página */
+}
+#title{
+    padding: 5vh 3vw 5vh 3vw;
+    text-align: center;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: yellow;
+    display: inline-block;
+    z-index: 2;
+}
+#title-container{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
